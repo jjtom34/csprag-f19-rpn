@@ -1,9 +1,9 @@
-language: python
+language: python3
 
 script:
-- python -m unittest
+- python3 -m unittest
 
 after_success:
-- python -m unittest
+- python3 -m unittest
 - coverage run -m unittest
 
